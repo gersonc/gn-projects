@@ -2,13 +2,8 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-gn-dropzone',
-  template: `
-    <p>
-      gn-dropzone works!
-    </p>
-  `,
-  styles: [
-  ]
+  templateUrl: './gn-dropzone.component.html',
+  styleUrls: ['./gn-dropzone.component.scss'],
 })
 export class GnDropzoneComponent implements OnInit {
 

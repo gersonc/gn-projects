@@ -3,5 +3,5 @@
  */
 
 export * from './lib/gn-dropzone.service';
-export * from './lib/gn-dropzone.component';
+export * from './lib/gn-dropzone/gn-dropzone.component';
 export * from './lib/gn-dropzone.module';
